@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="tocelsius.js"></script>
+    <title>Fahrenheit/Celsius Converter</title>
+</head>
+<body>
+
+<!--main grid wrapper start-->
+<div class="wrapper">
+
+  <div class="f2c"> <!--Fahrenheit to Celsius div-->
+    <h2>Convert<br> Fahrenheit to Celsius:</h2>
+    <input type="text" id="fahr" placeholder="enter Fahrenheit here">
+    <br><br>
+    <button onclick="toCelsius()">GO</button>
+    <br><br>
+    <div id="top"></div>
+  </div>
+
+  <br>
+
+  <div class="or"><h1>OR</h1></div>
+
+   <br> 
+
+  <div class="c2f"> <!--Celsius to Fahrenheit div-->
+    <h2>Convert<br>Celsius to Fahrenheit:</h2>
+    <input type="text" id="cel" placeholder="enter Celsius here">
+    <br><br>
+    <button onclick="toFahrenheit()">GO</button>
+    <br><br>
+    <div id="bottom"></div>
+  </div>
+
+  <br><br>
+
+  <div class="footer">&copy;2021 &nbsp Kenneth Triplett</div> <!--footer area-->
+</div>  
+<!--main grid wrapper end-->
+  
+</body>
+</html>
